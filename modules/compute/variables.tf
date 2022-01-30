@@ -6,15 +6,15 @@ variable "region" {
 }
 
 variable "ssh_key_public" {
-  type    = string
+  type = string
   #Replace this with the location of you public key .pub
-  default = "C:\\Users\\wessa\\.ssh\\id_rsa.pub"
+  default = "~/documents/school/key2.pub"
 }
 
 variable "ssh_key_private" {
-  type    = string
+  type = string
   #Replace this with the location of you private key
-  default = "C:\\Users\\wessa\\.ssh\\id_rsa"
+  default = "~/documents/school/key2"
 }
 
 variable "public_subnet_one" {}
